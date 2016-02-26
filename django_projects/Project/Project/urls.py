@@ -12,5 +12,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('caterlist.urls')),
-    url(r'^$', default_urlconf),
+    # url(r'^$', default_urlconf),
 )
